@@ -1,0 +1,1 @@
+﻿{'Uid':'101','Uname':'葛婷婷','Upassword':'123456','Utel':'17356136872','Uaddress':'340311199601101646','Sicker':[{'Sid':'10101','Ssex':'男','Sname':'张三','Saddress':'340311199702101685','relationship':'其他'}]}

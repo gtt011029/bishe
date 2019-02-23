@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b927ce27-5dcf-4d5f-91f9-911a263edb1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gett/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/output.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/doctor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/pic_004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/pic_005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/pic_006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/代付款.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/代金券.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/健康商城.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/医生.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/医院.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/在线客服.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/在线客服.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/在线客服2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/在线客服2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/在线客服3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/在线问诊.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/头像.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/奶瓶.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/小儿感冒.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/感叹号.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/护士上门.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/时间.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/沙漏.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/消息.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/用户反馈.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/疾病.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/病人.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/订单.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/设置.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/评价.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/账户.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/images/预约.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/assets/images/menu1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/assets/images/menu2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/assets/images/menu3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/assets/images/menu4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/assets/images/menu5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/assets/images/menu6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/assets/images/奶瓶.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/components/mybutton.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/lib/MUI/css/icons-extra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/lib/MUI/css/mui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/lib/MUI/css/mui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/lib/MUI/fonts/mui-icons-extra.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/lib/MUI/fonts/mui.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/lib/MUI/js/mui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/lib/MUI/js/mui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/views/addPersonInformation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/views/allYuyue.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/views/commondetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/views/docotorDetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/views/information.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/views/login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/views/mine.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/views/news.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/views/personInformation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/views/recommendedDoctor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/views/register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/views/registration.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/src/views/selectDisease.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gett/vue.config.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="bishe" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gett/src/views/information.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="58" column="40" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gett/src/views/login.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gett/src/views/mine.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-148">
+              <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gett/src/views/news.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gett/src/views/personInformation.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gett/src/views/recommendedDoctor.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-350">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gett/src/views/register.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gett/src/views/registration.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="148" column="41" lean-forward="true" selection-start-line="148" selection-start-column="41" selection-end-line="148" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gett/src/views/selectDisease.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gett/src/views/allYuyue.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>{}</find>
+      <find>button</find>
+      <find>input_example</find>
+      <find>check</find>
+      <find>registration</find>
+      <find>String</find>
+      <find>Sname</find>
+      <find>commit</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/gett" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gett/src/views/news.vue" />
+        <option value="$PROJECT_DIR$/gett/src/views/111.vue" />
+        <option value="$PROJECT_DIR$/gett/src/views/personInformation.vue" />
+        <option value="$PROJECT_DIR$/gett/src/views/select disease.vue" />
+        <option value="$PROJECT_DIR$/gett/public/index.html" />
+        <option value="$PROJECT_DIR$/gett/src/views/recommendedHospitals.vue" />
+        <option value="$PROJECT_DIR$/gett/vue.config.js" />
+        <option value="$PROJECT_DIR$/gett/src/main.js" />
+        <option value="$PROJECT_DIR$/houtai/shuju/doctor" />
+        <option value="$PROJECT_DIR$/houtai/shuju/person.txt" />
+        <option value="$PROJECT_DIR$/houtai/src/model/doctors.js" />
+        <option value="$PROJECT_DIR$/gett/src/components/button.vue" />
+        <option value="$PROJECT_DIR$/houtai/src/model/person.js" />
+        <option value="$PROJECT_DIR$/gett/src/views/register.vue" />
+        <option value="$PROJECT_DIR$/houtai/src/app.js" />
+        <option value="$PROJECT_DIR$/houtai/src/model/commons.js" />
+        <option value="$PROJECT_DIR$/houtai/shuju/commons.txt" />
+        <option value="$PROJECT_DIR$/houtai/shuju/lunbo.txt" />
+        <option value="$PROJECT_DIR$/houtai/src/model/lunbo.js" />
+        <option value="$PROJECT_DIR$/gett/src/App.vue" />
+        <option value="$PROJECT_DIR$/gett/src/views/Home.vue" />
+        <option value="$PROJECT_DIR$/houtai/shuju/hots.txt" />
+        <option value="$PROJECT_DIR$/houtai/src/model/hots.js" />
+        <option value="$PROJECT_DIR$/gett/src/views/recommendedDoctor.vue" />
+        <option value="$PROJECT_DIR$/gett/src/views/selectDisease.vue" />
+        <option value="$PROJECT_DIR$/houtai/shuju/users.txt" />
+        <option value="$PROJECT_DIR$/houtai/shuju/yuyue.txt" />
+        <option value="$PROJECT_DIR$/houtai/src/model/users.js" />
+        <option value="$PROJECT_DIR$/houtai/src/model/yuyues.js" />
+        <option value="$PROJECT_DIR$/gett/src/router.js" />
+        <option value="$PROJECT_DIR$/houtai/src/router.js" />
+        <option value="$PROJECT_DIR$/gett/src/store.js" />
+        <option value="$PROJECT_DIR$/gett/src/components/mybutton.vue" />
+        <option value="$PROJECT_DIR$/gett/src/views/addPersonInformation.vue" />
+        <option value="$PROJECT_DIR$/gett/src/views/commondetail.vue" />
+        <option value="$PROJECT_DIR$/gett/src/views/docotorDetail.vue" />
+        <option value="$PROJECT_DIR$/gett/src/views/information.vue" />
+        <option value="$PROJECT_DIR$/gett/src/views/login.vue" />
+        <option value="$PROJECT_DIR$/gett/src/views/mine.vue" />
+        <option value="$PROJECT_DIR$/gett/src/views/registration.vue" />
+        <option value="$PROJECT_DIR$/gett/src/views/allYuyue.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="84" />
+    <option name="width" value="1118" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bishe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bishe" type="462c0819:PsiDirectoryNode" />
+              <item name="gett" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bishe" type="462c0819:PsiDirectoryNode" />
+              <item name="gett" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bishe" type="462c0819:PsiDirectoryNode" />
+              <item name="gett" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bishe" type="462c0819:PsiDirectoryNode" />
+              <item name="gett" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bishe" type="462c0819:PsiDirectoryNode" />
+              <item name="gett" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bishe" type="462c0819:PsiDirectoryNode" />
+              <item name="houtai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bishe" type="462c0819:PsiDirectoryNode" />
+              <item name="houtai" type="462c0819:PsiDirectoryNode" />
+              <item name="shuju" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bishe" type="462c0819:PsiDirectoryNode" />
+              <item name="houtai" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bishe" type="462c0819:PsiDirectoryNode" />
+              <item name="houtai" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/git/Git/cmd/git.exe" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="F:\igeek长训\my\bishe\gett\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VirtualHostGtt\my\ALL\bishe\gett\public\images" />
+      <recent name="D:\VirtualHostGtt\my\ALL\bishe\gett\src\assets\images" />
+      <recent name="D:\VirtualHostGtt\my\ALL\bishe\gett\node_modules" />
+      <recent name="D:\VirtualHostGtt\my\ALL\bishe\gett\public" />
+      <recent name="F:\igeek长训\my\bishe\gett\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\igeek长训\my\bishe\houtai" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\studnet\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b927ce27-5dcf-4d5f-91f9-911a263edb1f" name="Default Changelist" comment="" />
+      <created>1549695146321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549695146321</updated>
+      <workItem from="1549695155135" duration="6365000" />
+      <workItem from="1550145630613" duration="8356000" />
+      <workItem from="1550227520355" duration="11593000" />
+      <workItem from="1550242206101" duration="1346000" />
+      <workItem from="1550385393155" duration="3461000" />
+      <workItem from="1550407466468" duration="7069000" />
+      <workItem from="1550450721839" duration="7048000" />
+      <workItem from="1550486806105" duration="6176000" />
+      <workItem from="1550631368816" duration="34062000" />
+      <workItem from="1550709507622" duration="25959000" />
+      <workItem from="1550796279522" duration="35170000" />
+      <workItem from="1550884039923" duration="35233000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="181838000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21726191" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20949264" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Favorites" order="11" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21726191" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.20949264" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Favorites" order="11" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gett/.browserslistrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/babel.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/public/images/pic_004.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/public/images/pic_005.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/views/111.vue" />
+    <entry file="file://$PROJECT_DIR$/gett/public/js/mui.js" />
+    <entry file="file://$PROJECT_DIR$/gett/node_modules/MUI/js/mui.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/lib/MUI/js/mui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="93" column="42" lean-forward="true" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/node_modules/vue-template-compiler/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2775">
+          <caret line="4503" column="28" selection-start-line="4503" selection-start-column="28" selection-end-line="4503" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/postcss.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2439">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houtai/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="16" column="1" selection-start-line="8" selection-start-column="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houtai/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houtai/shuju/doctor" />
+    <entry file="file://$PROJECT_DIR$/houtai/shuju/person.txt" />
+    <entry file="file://$PROJECT_DIR$/gett/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houtai/src/model/doctors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houtai/src/model/commons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houtai/shuju/lunbo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houtai/shuju/hots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houtai/src/model/lunbo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houtai/src/model/hots.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houtai/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="994">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houtai/shuju/commons.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houtai/shuju/users.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="164" lean-forward="true" selection-start-column="164" selection-end-column="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houtai/shuju/doctor.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houtai/src/model/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houtai/shuju/yuyue.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="109" selection-start-column="109" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houtai/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="958">
+          <caret line="138" column="19" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/houtai/src/model/yuyues.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/components/mybutton.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/views/addPersonInformation.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1086">
+          <caret line="99" column="42" lean-forward="true" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/views/commondetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/views/docotorDetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="45" column="49" lean-forward="true" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/views/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2638">
+          <caret line="256" column="2" selection-start-line="256" selection-start-column="2" selection-end-line="286" selection-end-column="3" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#2;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#2;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#div#0;n#div#2;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#div#2;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#div#4;n#div#0;n#div#2;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#div#2;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#div#5;n#div#0;n#div#2;n#div#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/views/information.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="58" column="40" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/views/login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/views/mine.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/views/news.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/views/register.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/views/registration.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="148" column="41" lean-forward="true" selection-start-line="148" selection-start-column="41" selection-end-line="148" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/views/selectDisease.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/views/recommendedDoctor.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-350">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/views/personInformation.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gett/src/views/allYuyue.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
