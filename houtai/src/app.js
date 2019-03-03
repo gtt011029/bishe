@@ -3,7 +3,11 @@ const router = require("./router");
 var app = express();
 var mongoose = require('mongoose');
 
-mongoose.connect("mongodb://localhost/gett", {useNewUrlParser:true}, function(err){
+//使用node压缩
+const compression = require('compression');
+app.use(compression());
+
+mongoose.connect("mongodb://127.0.0.1/gett", {useNewUrlParser:true}, function(err){
     if(err){
         console.log('Connection Error:' + err)
     }else{
@@ -53,10 +57,4 @@ app.use("/api",router)
 app.use("/upload",express.static("../upload/"))
 
 
-
-
-
-app.listen(8899,'127.0.0.1',()=>{
-    console.log('api服务已启动, :8899');
-});
-
+app.listen(8899);

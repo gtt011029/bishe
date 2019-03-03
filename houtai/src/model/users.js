@@ -36,9 +36,6 @@ var UsersSchema =  new mongoose.Schema({
         }
     ]
 })
-
-
-
 //静态方法，增加用户
 UsersSchema.statics.insertUsers = function(json,callback){
     var users = new Users(json);

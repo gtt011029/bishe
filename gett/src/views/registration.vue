@@ -103,7 +103,7 @@
                 this.special = true
             },
             getSicker(){
-                console.log(this.$store.state.Sname,this.$store.state.Ssex,this.$store.state.relationship);
+                // console.log(this.$store.state.Sname,this.$store.state.Ssex,this.$store.state.relationship);
                 this.sick[0].Ssex = this.$store.state.Ssex;
                 this.sick[0].Sname = this.$store.state.Sname;
                 this.sick[0].relationship = this.$store.state.relationship;

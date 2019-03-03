@@ -8,10 +8,8 @@ import Vueresource from 'vue-resource'
 //注册vue-resource
 Vue.use(Vueresource)
 Vue.http.options.emulateJSON = true
-Vue.http.options.root = "http://127.0.0.1:8899"
+Vue.http.options.root = "http://39.96.198.192:8899"
 
-
-//导入VueResource并挂载
 
 //引入mintui并注册组件
 import Mint from 'mint-ui'
@@ -23,9 +21,8 @@ import 'mint-ui/lib/style.css'
 import 'MUI/css/mui.css'
 import 'MUI/css/icons-extra.css'
 
-
-
 Vue.config.productionTip = false;
+
 
 new Vue({
   router,

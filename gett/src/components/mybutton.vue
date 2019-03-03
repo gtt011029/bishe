@@ -1,6 +1,8 @@
 <template>
     <div class="button_outer">
-        <input type="button" class="button" @click="login" :value="innerText">
+        <router-link :to="'/registration/'+Dname+'/'+Doffice">
+            <input type="button" class="button" :value="innerText">
+        </router-link>
     </div>
 </template>
 

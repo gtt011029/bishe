@@ -49,7 +49,12 @@
                             if(data.body[0].Upassword == obj.password){
                                 mui.alert("登录成功")
                                 this.$store.commit("changeloginName",obj.name)
-                                this.$router.go(-1)
+                                if(this.$store.state.next){
+                                    this.$router.push({'path':this.$store.state.next})
+                                }else{
+                                    this.$router.go(-1)
+                                }
+
                             }else{
                                 mui.alert("密码错误")
                             }

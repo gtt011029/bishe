@@ -9,10 +9,7 @@
 
 
     <!-- 中间的 路由 router-view 区域 -->
-    <transition :name="transitionName">
       <router-view></router-view>
-    </transition>
-
 
     <!-- 底部 Tabbar 区域 -->
     <nav class="mui-bar mui-bar-tab" v-if="$route.meta.flag">
@@ -65,22 +62,22 @@
       }
     },
     watch:{
-      '$route.path':function(newVal,oldVal){
-        if(this.isBack){
-          this.transitionName = 'slide-right'
-        }
-        else{
-          this.transitionName = 'slide-left'
-        }
-        this.isBack = false;
+        '$route.path':function(newVal,oldVal){
+            if(this.isBack){
+                this.transitionName = 'slide-right'
+            }
+            else{
+                this.transitionName = 'slide-left'
+            }
+            this.isBack = false;
 
-        if(newVal != '/home'){
-          this.flag = true;
+            if(newVal != '/home'){
+                this.flag = true;
+            }
+            else{
+                this.flag = false;
+            }
         }
-        else{
-          this.flag = false;
-        }
-      }
     }
   }
 </script>
@@ -121,6 +118,5 @@
       background-image: url("../public/images/在线客服.png");
       background-size: contain;
     }
-
   }
 </style>

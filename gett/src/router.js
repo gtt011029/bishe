@@ -1,23 +1,28 @@
 import Vue from "vue";
+import store from './store.js'
 import Router from "vue-router";
-import home from "./views/Home.vue";
-import information from "./views/information.vue";
-import news from "./views/news.vue";
-import mine from "./views/mine.vue";
-import personInformation from "./views/personInformation.vue";
-import docotorDetail from "./views/docotorDetail.vue";
-import registration from "./views/registration.vue";
-import selectDisease from "./views/selectDisease.vue";
-import addPersonInformation from "./views/addPersonInformation.vue"
-import recommendedDoctor from "./views/recommendedDoctor.vue"
-import login from "./views/login.vue"
-import register from "./views/register.vue"
-import commondetail from "./views/commondetail.vue"
-import allYuyue from "./views/allYuyue.vue"
+
+const home = () => import('./views/Home.vue');
+const information = () => import('./views/information.vue');
+const news = () => import('./views/news.vue');
+const mine = () => import('./views/mine.vue');
+const personInformation = () => import('./views/personInformation.vue');
+const docotorDetail = () => import('./views/docotorDetail.vue');
+const registration = () => import('./views/registration.vue');
+const selectDisease = () => import('./views/selectDisease.vue');
+const addPersonInformation = () => import('./views/addPersonInformation.vue');
+const recommendedDoctor = () => import('./views/recommendedDoctor.vue');
+const login = () => import('./views/login.vue');
+const register = () => import('./views/register.vue');
+const commondetail = () => import('./views/commondetail.vue');
+const allYuyue = () => import('./views/allYuyue.vue');
+
+import mui from 'MUI/js/mui.js'
 
 Vue.use(Router);
 
-export default new Router({
+
+const router = new Router({
   routes: [
     {
       path: "/",
@@ -79,6 +84,16 @@ export default new Router({
       path:"/registration/:Dname/:Doffice",
       name:"registration",
       component:registration,
+      beforeEnter: (to, from, next) => {
+        if(store.state.loginName){
+          next();
+        }else{
+          mui.alert('请先登录');
+          var next11 = '/registration/'+to.params.Dname+'/'+to.params.Doffice;
+          store.commit('changeNext',next11);
+          next('/login');
+        }
+      },
       meta:{
         title:"挂号陪诊",
       }
@@ -135,11 +150,21 @@ export default new Router({
       path:"/allYuyue",
       name:"allYuyue",
       component:allYuyue,
+      beforeEnter: (to, from, next) => {
+        if(store.state.loginName){
+          next();
+        }else{
+          mui.alert('请先登录')
+          store.commit('changeNext','/allYuyue');
+          next('/login')
+        }
+      },
       meta:{
         title:"我的预约"
       }
     },
-
   ],
   linkActiveClass:"mui-active"
 });
+
+export default router;

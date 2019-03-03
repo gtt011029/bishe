@@ -23,10 +23,10 @@
                     <img src="../../public/images/评价.png" alt="">
                     <p>待评价</p>
                 </div>
-                <div @click="goallYuyue">
+                <router-link to="/allYuyue" tag="div">
                     <img src="../../public/images/预约.png" alt="">
                     <p>全部预约</p>
-                </div>
+                </router-link>
             </div>
             <div class="two">
                 <div>

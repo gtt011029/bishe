@@ -3,13 +3,14 @@ import Vuex from "vuex";
 
 Vue.use(Vuex);
 
-export default new Vuex.Store({
+const store = new Vuex.Store({
   state: {
     disease:'',
     Sname:'',//患者姓名
     Ssex:'',//患者性别
     relationship:'',//关系
     loginName:'',
+    next:''
   },
   mutations: {
     changeDesease(state,obj){
@@ -22,7 +23,12 @@ export default new Vuex.Store({
     },
     changeloginName(state,obj){
       state.loginName = obj;
+    },
+    changeNext(state,obj){
+        state.next = obj;
     }
   },
   actions: {}
 });
+
+export default store;

@@ -12,12 +12,6 @@ var lunbos = require("./model/lunbo.js")
 var hots = require("./model/hots.js")
 var yuyues = require("./model/yuyues.js")
 
-
-router.get("/getlunbo",function(req,res){
-    res.send("lunbo");
-    console.log("请求到了吗text")
-})
-
 router.get("/doctors",function(req,res){
     // console.log("请求到了吗doctors")
     Docotor.find({}, function (err, result) {
@@ -38,7 +32,7 @@ router.get("/getdoctordetail",function(req,res){
 
 //保存预约信息
 router.post("/saveYuyue",function(req,res){
-    console.log(req.body)
+    // console.log(req.body)
     var obj={
         YUname:req.body.Uname,
         YStype:req.body.Stype,
@@ -48,9 +42,9 @@ router.post("/saveYuyue",function(req,res){
         YSname:req.body.Sname,
         YStime:req.body.Stime,
     }
-    console.log(obj)
+    // console.log(obj)
     yuyues.insertyuyues(obj,function(result){
-        console.log(result);
+        // console.log(result);
     })
     res.send("ok")
 })
@@ -59,7 +53,7 @@ router.post("/saveYuyue",function(req,res){
 router.get("/getYuyue",function(req,res){
     var Uname = url.parse(req.url,true).query.Uname;
     yuyues.find({'YUname':Uname},function(err,result){
-        console.log(result);
+        // console.log(result);
         res.send(result);
     })
 })
@@ -69,17 +63,17 @@ router.post("/getUsers",function(req,res){
     var name = req.body.name;
     var password = req.body.password
     Users.find({Uname:name}, function (err, result) {
-        console.log(result)
+        // console.log(result)
         res.send(result);
     });
 })
 
 //添加新用户
 router.post("/addUsers",function(req,res){
-    console.log(req.body);
+    // console.log(req.body);
     Users.find({Uname:req.body.name},function(err,result){
         if(result.length){
-            console.log("用户名已存在")
+            // console.log("用户名已存在")
             res.send("用户已存在");
         }else{
             var obj = {
@@ -97,9 +91,9 @@ router.post("/addUsers",function(req,res){
 //找用户下面的病人
 router.get("/getSicker",function(req,res){
     var loginName = req.query.loginName;
-    console.log("loginName"+loginName)
+    // console.log("loginName"+loginName)
     Users.find({Uname:loginName},function(err,result){
-        console.log(result[0])
+        // console.log(result[0])
         res.send(result[0]);
     })
     // console.log(sick);
@@ -122,7 +116,7 @@ router.post("/addSicker",function(req,res){
 //获取hot疾病
 router.get("/gethot",function(req,res){
     hots.find({},function(err,result){
-        console.log(result)
+        // console.log(result)
         res.send(result);
     })
 })
@@ -159,8 +153,6 @@ router.get("/getlunbos",function(req,res){
         res.send(result)
     })
 })
-
-
 
 
 //用户登录之后，在node后台将用户信息保存到node服务器
