@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="up">
-            
+
         </div>
         <div class="down">
             <div class="doctor_title">
@@ -104,6 +104,7 @@
             font-size: 12px;
         }
         .doctor_desc{
+          padding: 0 5px;
             height: 120px;
             overflow: hidden;
             .desc{

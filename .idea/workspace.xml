@@ -2,172 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b927ce27-5dcf-4d5f-91f9-911a263edb1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gett/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/output.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/doctor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/pic_004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/pic_005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/pic_006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/time.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/代付款.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/代金券.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/健康商城.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/医生.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/医院.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/在线客服.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/在线客服.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/在线客服2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/在线客服2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/在线客服3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/在线问诊.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/头像.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/奶瓶.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/小儿感冒.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/感叹号.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/护士上门.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/时间.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/沙漏.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/消息.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/用户反馈.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/疾病.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/病人.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/订单.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/设置.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/评价.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/账户.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/images/预约.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/assets/images/menu1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/assets/images/menu2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/assets/images/menu3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/assets/images/menu4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/assets/images/menu5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/assets/images/menu6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/assets/images/奶瓶.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/components/mybutton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/lib/MUI/css/icons-extra.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/lib/MUI/css/mui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/lib/MUI/css/mui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/lib/MUI/fonts/mui-icons-extra.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/lib/MUI/fonts/mui.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/lib/MUI/js/mui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/lib/MUI/js/mui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/views/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/views/addPersonInformation.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/views/allYuyue.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/views/commondetail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/views/docotorDetail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/views/information.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/views/login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/views/mine.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/views/news.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/views/personInformation.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/views/recommendedDoctor.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/views/register.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/views/registration.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/src/views/selectDisease.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gett/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gett/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gett/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gett/src/components/mybutton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gett/src/components/mybutton.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gett/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/gett/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gett/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/gett/src/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gett/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/gett/src/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gett/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gett/src/views/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gett/src/views/information.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gett/src/views/information.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gett/src/views/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gett/src/views/login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gett/src/views/mine.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gett/src/views/mine.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gett/src/views/registration.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gett/src/views/registration.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gett/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gett/vue.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/houtai/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/houtai/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/houtai/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/houtai/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/houtai/shuju/commons.txt" beforeDir="false" afterPath="$PROJECT_DIR$/houtai/shuju/commons.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/houtai/shuju/doctor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/houtai/shuju/doctor.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/houtai/shuju/hots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/houtai/shuju/hots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/houtai/shuju/lunbo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/houtai/shuju/lunbo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/houtai/shuju/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/houtai/shuju/users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/houtai/shuju/yuyue.txt" beforeDir="false" afterPath="$PROJECT_DIR$/houtai/shuju/yuyue.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/houtai/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/houtai/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/houtai/src/model/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/houtai/src/model/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/houtai/src/model/lunbo.js" beforeDir="false" afterPath="$PROJECT_DIR$/houtai/src/model/lunbo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/houtai/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/houtai/src/router.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="bishe" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gett/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gett/src/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gett/src/views/Home.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#src#0;n#img#0;n#div#0;n#div#3;n#div#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gett/src/views/news.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gett/src/views/information.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2197">
-              <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -190,8 +41,8 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/gett" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -240,11 +91,15 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="84" />
     <option name="width" value="1118" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectId" id="2S5PQo2k9OdSK2B4n2M8IuuAolw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -283,20 +138,20 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/git/Git/cmd/git.exe" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="F:\igeek长训\my\bishe\gett\node_modules\eslint" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\VirtualHostGtt\my\ALL\bishe\gett\public\images" />
@@ -309,18 +164,7 @@
       <recent name="F:\igeek长训\my\bishe\houtai" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\studnet\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
@@ -348,6 +192,7 @@
       <workItem from="1551095593946" duration="4171000" />
       <workItem from="1551231086603" duration="17146000" />
       <workItem from="1551624402803" duration="295000" />
+      <workItem from="1688433455690" duration="14514000" />
     </task>
     <servers />
   </component>
@@ -396,7 +241,18 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gett/.browserslistrc">

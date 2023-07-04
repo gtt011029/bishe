@@ -9,6 +9,6 @@ var lunbosSchema = new mongoose.Schema({
     }
 })
 
-var lunbos = mongoose.model('lunbos',lunbosSchema)
+const lunbo = mongoose.model('lunbo',lunbosSchema)
 
-module.exports =  lunbos
+module.exports =  lunbo

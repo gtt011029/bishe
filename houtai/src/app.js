@@ -57,4 +57,6 @@ app.use("/api",router)
 app.use("/upload",express.static("../upload/"))
 
 
-app.listen(8899);
+app.listen(8899, () => {
+    console.log('启动在8899成功');
+})

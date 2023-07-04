@@ -7,7 +7,7 @@
             </div>
             <div class="main">
                 <router-link :to="'/recommendedDoctor/'+item.Hoffice" tag="div" v-for="item in hot" :key="item.Hoffice">
-                    <img :src="'http://39.96.198.192:8899/upload/'+item.Hsrc" alt="">
+                    <img :src="item.Himg" alt="">
                     <p>{{item.Hoffice}}</p>
                 </router-link>
             </div>
@@ -19,7 +19,7 @@
             </div>
             <div class="main">
                 <router-link :to="'/commondetail/'+item.Cid" tag="div" v-for="item in commons" :key="item.name">
-                    <img :src="'http://39.96.198.192:8899/upload/'+item.Cimage" alt="">
+                    <img :src="item.Cimg" alt="">
                     <p>{{item.Cname}}</p>
                 </router-link>
             </div>

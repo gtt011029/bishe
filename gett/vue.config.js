@@ -45,23 +45,23 @@ module.exports = {
 
   // 官网：https://cli.vuejs.org/zh/guide/webpack.html#%E7%AE%80%E5%8D%95%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%B9%E5%BC%8F
   // 更多配置参考：https://www.jb51.net/article/150844.htm
-  configureWebpack: config => {
-    if (debug) {
-      // 开发环境配置
-      // sourcemap 参考：https://www.cnblogs.com/hhhyaaon/p/5657469.html
-      config.devtool = '#cheap-module-eval-source-map'
-    }
-    else { // 生产环境配置
-    }
-    Object.assign(config, { // 开发生产共同配置
-      resolve: {
-        alias: {
-          '@': path.resolve(__dirname, './src'),
-          'vue$': 'vue/dist/vue.esm.js'
-        }
-      }
-    })
-  },
+  // configureWebpack: config => {
+  //   if (debug) {
+  //     // 开发环境配置
+  //     // sourcemap 参考：https://www.cnblogs.com/hhhyaaon/p/5657469.html
+  //     // config.devtool = '#cheap-module-eval-source-map'
+  //   }
+  //   else { // 生产环境配置
+  //   }
+  //   Object.assign(config, { // 开发生产共同配置
+  //     resolve: {
+  //       alias: {
+  //         '@': path.resolve(__dirname, './src'),
+  //         'vue$': 'vue/dist/vue.esm.js'
+  //       }
+  //     }
+  //   })
+  // },
 
   // webpack的链式操作，允许对内部的 webpack 配置进行更细粒度的修改
   // 参考： https://cli.vuejs.org/zh/guide/webpack.html#%E9%93%BE%E5%BC%8F%E6%93%8D%E4%BD%9C-%E9%AB%98%E7%BA%A7
@@ -78,7 +78,7 @@ module.exports = {
   css: {
     // 默认情况下，只有 *.module.[ext] 结尾的文件才会被视作 CSS Modules 模块。设置为 true 后你就可以去掉文件名中的 .
     // module 并将所有的 *.(css|scss|sass|less|styl(us)?) 文件视为 CSS Modules 模块。
-    modules: false,
+    // modules: false,
     // 是否将组件中的 CSS 提取至一个独立的 CSS 文件中 (而不是动态注入到 JavaScript 中的 inline 代码)。
     extract: true,
     // 是否构建样式地图，false 将提高构建速度
@@ -99,7 +99,6 @@ module.exports = {
     host: '0.0.0.0',
     port: 3000,
     https: false,
-    hotOnly: false,
     proxy: null,
   },
   // 第三方插件配置

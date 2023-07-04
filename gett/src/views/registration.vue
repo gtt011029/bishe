@@ -57,7 +57,7 @@
 </template>
 
 <script>
-    import mui from 'MUI/js/mui.js'
+    // import mui from 'MUI/js/mui.js'
     import mybutton from "../components/mybutton.vue"
     export default {
         name: "registration",

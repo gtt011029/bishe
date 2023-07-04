@@ -22,7 +22,7 @@
 </template>
 
 <script>
-    import mui from 'MUI/js/mui.js'
+    import mui from '../lib/MUI/js/mui.js'
     export default {
         name: "register",
         data:function(){
