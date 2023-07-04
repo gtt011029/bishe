@@ -55,6 +55,18 @@
 
 ![image](https://github.com/gtt011029/bishe/blob/master/image/10.png)
 
+数据准备：
+把后台shuju文件夹中的数据导入对应的mongo表中，数据库名称gett
+
+
+运行：
+前端：
+  npm i
+  npm run dev
+后端：
+  npm i
+  nodemon src/app.js
+
 
 
 
